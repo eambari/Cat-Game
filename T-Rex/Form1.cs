@@ -70,10 +70,6 @@ namespace T_Rex
                 isJumping = true;
                 jumpHeightRemaining = JumpHeight;
             }
-            else if (jumpHeightRemaining > 250)
-            {
-
-            }
         }
 
         private void Timer_Tick(object sender, EventArgs e)
