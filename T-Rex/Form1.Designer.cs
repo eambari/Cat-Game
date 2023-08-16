@@ -83,7 +83,7 @@
             Controls.Add(character);
             Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Cat Game";
             ((System.ComponentModel.ISupportInitialize)character).EndInit();
             ResumeLayout(false);
             PerformLayout();

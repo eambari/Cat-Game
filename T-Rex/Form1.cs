@@ -79,7 +79,7 @@ namespace T_Rex
         private void Timer_Tick(object sender, EventArgs e)
         {
             ++timerTicks;
-            if(timerTicks % 91 == 0)
+            if (timerTicks % 91 == 0)
             {
                 InitializeObstacle();
             }
@@ -104,12 +104,12 @@ namespace T_Rex
                 }
             }
 
-            for(int i = 0; i < Obstacles.Count; i++)
+            for (int i = 0; i < Obstacles.Count; i++)
             {
                 Obstacles[i].Left -= ObstacleSpeed;
                 if (Obstacles[i].Right < 0)
                 {
-                        Obstacles.RemoveAt(i);
+                    Obstacles.RemoveAt(i);
                 }
 
                 if (character.Bounds.IntersectsWith(Obstacles[i].Bounds))
