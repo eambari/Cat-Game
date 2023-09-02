@@ -5,7 +5,7 @@ namespace T_Rex
     public partial class Form1 : Form
     {
         private const int FormWidth = 800;
-        private const int FormHeight = 450;
+        private const int FormHeight = 500;
         private const int JumpHeight = 100;
         private const int GroundHeight = 72;
         private const int ObstacleSpeed = 5;
@@ -57,11 +57,13 @@ namespace T_Rex
                 tmp_obstacle.Location = new Point(Width, Height - 210);
                 tmp_obstacle.Size = new Size(70, 150);
             }
+
             tmp_obstacle.SizeMode = PictureBoxSizeMode.Zoom;
             tmp_obstacle.BackColor = Color.Transparent;
             tmp_obstacle.ImageLocation = ObstacleImages[listNumber];
             Controls.Add(tmp_obstacle);
             Obstacles.Add(tmp_obstacle);
+
         }
         private void MainForm_KeyDown(object sender, KeyEventArgs e)
         {
@@ -69,6 +71,7 @@ namespace T_Rex
             {
                 isJumping = true;
                 jumpHeightRemaining = JumpHeight;
+                
             }
         }
 
