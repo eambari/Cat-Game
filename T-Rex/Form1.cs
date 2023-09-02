@@ -6,8 +6,8 @@ namespace T_Rex
     {
         private const int FormWidth = 800;
         private const int FormHeight = 450;
-        private const int GroundHeight = 72;
         private const int JumpHeight = 100;
+        private const int GroundHeight = 72;
         private const int ObstacleSpeed = 5;
         private const int TimerInterval = 10;
         private int maxScore = 0;
@@ -74,7 +74,7 @@ namespace T_Rex
 
         private void Timer_Tick(object sender, EventArgs e)
         {
-            ++timerTicks;
+            timerTicks++;
             if (timerTicks % 91 == 0)
             {
                 InitializeObstacle();
@@ -128,6 +128,11 @@ namespace T_Rex
                     }
                 }
             };
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
