@@ -41,7 +41,7 @@
             // 
             character.BackColor = Color.Transparent;
             character.Image = (Image)resources.GetObject("character.Image");
-            character.Location = new Point(187, 407);
+            character.Location = new Point(185, 402);
             character.Name = "character";
             character.Size = new Size(98, 101);
             character.SizeMode = PictureBoxSizeMode.StretchImage;
