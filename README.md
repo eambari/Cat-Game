@@ -8,6 +8,19 @@ Dorant Tateshi,
 
 Leon Saraqini
 
+You can find the T-Rex game in this link: https://fivesjs.skipser.com/trex-game/.
+
+The game is very simple where you are playing as the cat and by pressing the space key you jump so that you can pass the obstacles.
+
+Your score is shown in the top right section of the window.
+
+![image](https://github.com/eambari/Cat-Game/assets/99143635/f6314fcb-049d-4583-9cd2-888be86d4eae)
+
+
+The game ends when you touch an obstacle where you're shown your current score and the max score you've had throughout the game. 
+
+![image](https://github.com/eambari/Cat-Game/assets/99143635/658c4bec-96b9-40af-a3e5-0d7b962d309d)
+
 The code defines a namespace T_Rex and a class Form1 that extends the Form class. This class represents the main form of the game.
 
         // Constants for various dimensions and properties
