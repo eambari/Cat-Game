@@ -5,7 +5,7 @@ namespace T_Rex
     public partial class Form1 : Form
     {
         private const int FormWidth = 800;
-        private const int FormHeight = 500;
+        private const int FormHeight = 450;
         private const int JumpHeight = 100;
         private const int GroundHeight = 72;
         private const int ObstacleSpeed = 5;
